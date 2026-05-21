@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav {
+    top:0;
+    position:fixed;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;           
+    padding-left: 0px ;
+	
+	font-size: 10px; 
+    background-color:#B8B9FF; 
+
+	}
+.logo {
+    display: flex;
+    align-items: center;
+    gap:11px; 
+}
+
+
+ h1{
+    color: #A30021;        
+    font-family: Arial, sans-serif; 
+    text-align:left;    
+    font-size: 20px;
+	  gap: 40px; 
+    margin-right:40px;
+	
+}
+nav ul {
+	color: #2E4A23;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 150px; 
+
+}
+h2{
+    color: #0010A3;        
+    font-family: Arial, sans-serif; 
+    text-align:center;    
+    font-size: 30px;  
+	}
+.hard {
+    display: flex;
+    justify-content: center; 
+    
+    width: 100%;             
+    gap: 20px;              
+    margin: 0 auto;         
+}
+
+.hard img {
+   
+    max-width: 400px;        
+    height: 300px;
+    display: block;
+	background-color: #FF8AA1;
+    padding: 20px;
+    border:15px solid #FF2E58
+;
+}
+p{
+     
+      
+    font-family: Arial, sans-serif; 
+    text-align:justify;    
+    font-size: 25px;   
+    margin-left: 120px; 
+    margin-right: 120px;
+}
+ul{
+     
+      
+    font-family: Arial, sans-serif; 
+    text-align:justify;    
+    font-size: 20px;   
+    margin-left: 130px; 
+    margin-right: 130px;
+}
+
+
+body {
+  background-color: #0006FF;
+  margin: 0;               
+  display: flex;            
+  justify-content: center;
+           
+}
+
+.capsula {
+  background-color: white;  
+  width: 85%;               
+  max-width: 1000px;        
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+}
